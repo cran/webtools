@@ -10,14 +10,12 @@ dinfo(pkg)
 \item{pkg}{The package name}
 }
 \value{
-List of datasets for the package.
-Note: some datasets will have package dependencies to load, please take
-heed of any such messages when viewing the loaded dataset object.
+A tibble of datasets belonging to the package.
 }
 \description{
-Get dataset info on a package, CRAN packages with datasets,
-installed locally or not. And fetch the datasets. Use dsearch('query') to
-find packages with datasets.
+Get dataset info on CRAN packages with datasets, installed
+locally or not. And fetch the datasets. Use dsearch('query') to find
+packages with datasets.
 Note: file types may vary, use the full file name of the dataset you
 require, as displayed. Package & dataset names are case-sensitive.
 }

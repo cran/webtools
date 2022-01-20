@@ -4,15 +4,13 @@
 \alias{dsearch}
 \title{Search for a dataset in all CRAN packages}
 \usage{
-dsearch(val)
+dsearch(query)
 }
 \arguments{
-\item{val}{The search string}
+\item{query}{The search string}
 }
 \value{
-No return, outputs a list of packages to console.
-Note: some datasets will have package dependencies to load, please take heed
-of any such messages when viewing the loaded dataset object.
+A tibble of packages (having datasets) matching the search query.
 }
 \description{
 Search for, and fetch datasets in -all- CRAN packages, installed

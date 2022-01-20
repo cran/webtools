@@ -13,12 +13,14 @@ dfetch(pkg, ds)
 }
 \value{
 A vector of all the loaded dataset objects. Console output will list
-all found tables in the dataset (usually just the one)
+all found tables in the dataset (usually just the one).
+Note: some datasets will have package dependencies when loaded, please take
+heed of any such messages when viewing the loaded dataset object.
 }
 \description{
 Get and load a dataset in a package. Use dsearch('query') to
 find packages with datasets, and dinfo('package') to get the package info
-and datasets.
+and its datasets.
 }
 \examples{
 dfetch('TSrepr', 'elec_load.rda')

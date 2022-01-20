@@ -4,16 +4,19 @@
 \alias{ddg}
 \title{Duckduckgo Instant-search}
 \usage{
-ddg(x, max_rel)
+ddg(q, max_rel, get_result)
 }
 \arguments{
-\item{x}{The search string}
+\item{q}{The search string}
 
 \item{max_rel}{(optional) Max. number of related results (default 3), or the
 number of results returned, which ever is smaller}
+
+\item{get_result}{(optional) Return the first result (either the `Instant
+Result`` or, if none, the first related result)}
 }
 \value{
-The search URL used
+A "safe" search URL, or the first result if get_result=TRUE passed
 }
 \description{
 Perform a DDG Instant search on a query term.
@@ -21,4 +24,5 @@ Perform a DDG Instant search on a query term.
 \examples{
 ddg('ngrams')
 ddg('ngrams', 2)
+ddg('ngrams', get_result=TRUE)
 }
