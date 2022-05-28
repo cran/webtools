@@ -2,7 +2,7 @@
 #' @description Get a unique GUID. Simple. See: `ddg('guid')`.
 #' @usage guid()
 #' @return A unique GUID.
-#' @examples ddg('ngrams')
+#' @examples guid()
 #' @export
 guid <- function() {
   guid <- RCurl::httpGET('http://givemeguid.com')

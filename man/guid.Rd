@@ -13,5 +13,5 @@ A unique GUID.
 Get a unique GUID. Simple. See: `ddg('guid')`.
 }
 \examples{
-ddg('ngrams')
+guid()
 }

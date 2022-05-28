@@ -1,8 +1,8 @@
-69931079c34052460a670036598d5f56 *DESCRIPTION
+0aaa42c781f2401c2b2d18a46a0848a6 *DESCRIPTION
 17966ffcb2fdca73318c5a1368055a76 *NAMESPACE
 57d2433d0f04d7a1ab2447ccdae08061 *R/ddg.R
 ac1fe5868f4436f3cf6653473c0bbd1f *R/dsearch.R
-81e93b9bdd2bc388695cc0616c707de1 *R/guid.R
+1cb81effb6c41d550cf4c71fe95b0e1d *R/guid.R
 5f19326113d8717b9a9aa1021191b7e5 *R/sharebin.R
 0f5347545d26d746b6ed0043531db34f *R/zzz.R
 a34ca38351bc7ae4b3b84354a748e2a6 *man/ddg.Rd
@@ -12,7 +12,7 @@ fec965808bf707a1b8c96717e6ce791f *man/dfetch.Rd
 b6c925df3b7d777e164c34912169a5f8 *man/do_info_search.Rd
 7af014919829e37498c18baac69e3243 *man/dsearch.Rd
 f3d25589d2cc41eceab295074e7afec1 *man/elec_load.Rd
-5e62f78fe5e5c1bcb6a7f67c8283cbd9 *man/guid.Rd
+5decb8ed4eeaf35c5fdd1373a9625773 *man/guid.Rd
 01e2c4b6306fa9872077b0ce4e095aee *man/sexout.Rd
 e0fe73316d3a8971ee8e28f4db0df081 *man/sharebin.Rd
 92ac8b12ed49b686ee808ca7652967d4 *man/webtools.Rd
