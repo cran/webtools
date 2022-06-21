@@ -1,10 +1,12 @@
-0aaa42c781f2401c2b2d18a46a0848a6 *DESCRIPTION
+5e00b5bd7037ed720785836fbc50fff0 *DESCRIPTION
 17966ffcb2fdca73318c5a1368055a76 *NAMESPACE
+bf8e911127e7c60846e2882924a05b1b *R/countries.R
 57d2433d0f04d7a1ab2447ccdae08061 *R/ddg.R
 ac1fe5868f4436f3cf6653473c0bbd1f *R/dsearch.R
 1cb81effb6c41d550cf4c71fe95b0e1d *R/guid.R
 5f19326113d8717b9a9aa1021191b7e5 *R/sharebin.R
 0f5347545d26d746b6ed0043531db34f *R/zzz.R
+e40ceb1a0232bb91cb8e3877b2e28e53 *man/countries.Rd
 a34ca38351bc7ae4b3b84354a748e2a6 *man/ddg.Rd
 1d6dd095f8a8efb1e6befbe6a6afa360 *man/dexout.Rd
 fec965808bf707a1b8c96717e6ce791f *man/dfetch.Rd
