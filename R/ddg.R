@@ -45,3 +45,4 @@ ddg <- function(q, max_rel=3, get_result=FALSE) {
   return(ifelse(get_result==TRUE, result, url_safe))
 
 }
+
